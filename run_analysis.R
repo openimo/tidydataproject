@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 setwd("/home/openimo/R")
 library(dplyr)
 library(tidyr)
@@ -53,3 +54,6 @@ names(complete_file) <- make.names(names(complete_file), unique=TRUE)
 final_data <- select(complete_file, contains(".mean..."), contains(".std..."))
 setwd(main_directory)
 write.table(final_data, file="final_data.txt", row.names=FALSE)
+=======
+
+>>>>>>> 79bff99fe6b113c1992e1c385001bc2f4ec05959
